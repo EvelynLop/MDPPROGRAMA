@@ -19,11 +19,22 @@ body{
 
 .container-fluid{
     display: flex;
-    direction: row;
+    direction:column;
     gap:3rem;
     justify-content: center;
     align-items: center;
     height: 510px;
+    flex-wrap: wrap;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
 }
 
 .card{
