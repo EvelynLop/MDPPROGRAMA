@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+    gap: 4rem;
+    border:1px solid salmon;
+    width: 80%;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+img{
+    width: 100%; /*los porcentajes simpre son en rlacion al padre*/
+    height: auto;
+    margin: auto;
+}
+
+p{
+    background-color: aqua;
+    padding: 1rem;
+}
+
+.container-hidden{
+    display:none;
+}
+
+
+/*las mediaqury nos pertmite declarar una condicion entre parentesis y escribir CSS que se activa cuando esa condicion se cumpla*/
+
+@media(min-width:550px){
+    .container{
+        display: flex;
+        gap:.5rem;
+    }
+
+    img{
+        margin: 0;
+    }
+
+    .container-inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid black;
+        width:60%;
+        gap:2rem;
+    }
+
+    p{
+        background-color: blueviolet;
+    }
+
+    body{
+        gap:2rem;
+    }
+
+    header{
+        width: 80%;
+        margin-top: 3rem;
+    }
+
+    main{
+        gap:1rem;
+        padding: 10px;
+    }
+   
+}
+
+@media(min-width:850px){
+    .container{
+        max-height: 700px;
+    }
+
+    .container-hidden{
+        display: flex;
+        align-items: center;
+    }
+}

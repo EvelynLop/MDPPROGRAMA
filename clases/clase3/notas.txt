@@ -1,0 +1,7 @@
+PROPIEDADES DE CSS (clase 3)
+box-sizing: border-box; --> esto lo que hace es que no deja que las cosas chooquen y se superpongan. Ej: en el modelo de caja, cada uno tiene un margin(espacio interior) y un padding (espacio exterior).. lo que hace el box-sizing es decirle a todos los elementos: mira q tu margin no se puede sobreponer al margin de otro.
+https://developer.mozilla.org/es/docs/Web/CSS/box-sizing esto explica que si yo pongo box-sizing: content-box; la cosas siempre se me vana superponer y si pongo box-sizing: border-box; las cosas siempre se me van a contener
+
+
+color: esta propiedad en el color de la letra.
+
