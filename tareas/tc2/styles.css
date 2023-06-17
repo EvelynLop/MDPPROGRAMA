@@ -1,0 +1,13 @@
+*{
+    text-align: center;
+}
+
+.primero{
+    border-style:ridge;
+    padding: 15px;
+}
+
+.segundo{
+    border-style: ridge;
+    padding: 15px;
+}

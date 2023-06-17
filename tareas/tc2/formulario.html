@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Incripciones</h1>
+        <h3> Carrera de programacion</h3>
+        <h5>Datos personales:</h5>
+        <form action="">
+            <div class="primero">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Complete su nombre"> <br><br>
+
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Complete su apellido"> <br><br>
+
+                <label for="nacimiento">Fecha de nacimiento</label>
+                <input type="date" name="nacimiento" id="nacimiento"> <br><br>
+
+                <label for="pais">Pais</label>
+                <select name="pais" id="pais">
+                    <option value="">Argentina</option>
+                    <option value="espana">Espana</option>
+                    <option value="uruguay">Uruguay</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="paraguay">Paraguay</option>
+                    <option value="mexico">Mexico</option>
+                </select> <br><br>
+           </div>
+
+           <h5>Datos de contacto:</h5>
+           <div class="segundo">
+                <label for="mail">Mail</label>
+                <input type="email" name="mail" id="mail" placeholder="Complete su mail"><br><br>
+
+                <label for="tel">Tel</label>
+                <input type="tel" name="tel" id="tel" placeholder="Complete su numero"> <br><br>
+
+                <label for="direccion">Direccion</label>
+                <input type="text" name="direccion" id="direccion">
+           </div>
+            
+            <label for="trabajo">Esta trabajando actulamente?</label><br><br>
+
+            <label for="si">Si</label>
+            <input type="checkbox" name="si" id="si">
+
+            <label for="no">No</label>
+            <input type="checkbox" name="no" id="no"> <br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>

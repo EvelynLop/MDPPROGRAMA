@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    border-bottom: 1px solid black;
+    background-image: linear-gradient(#40128B, #FFE79B)
+}
+
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+main{
+    display: flex;
+    align-items: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+}
+
+
+button{
+    background-color:#40128B;
+    border-radius: 5px;
+    width: 90px;
+    height: 26px;
+}
+
+footer{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}

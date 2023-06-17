@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    }
+
+html{
+    background-image: url(./assets/fondopizza.jpg);
+}
+
+body{
+    min-height: 100vh;
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+}
+span{
+    background-color: gray;
+    padding:10px;
+    margin: 0px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+a{
+    color:white;
+}
+
+main{
+    text-align: center;
+    padding:120px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border:0px;
+    font-family: 'Press Start 2P', cursive;
+    padding: 5px;
+    margin:30px;
+}
+
+footer{
+    margin:0px;
+    padding-top: 200px;
+}

@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+body{
+    background-color: #116D6E;
+    font-family: 'Inconsolata', monospace;  
+    overflow: hidden; 
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#E4A5FF,#116A7B);
+    height: 5rem;
+}
+
+header>h1,h3{
+    display: flex;
+    justify-content: center;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    margin-right:3rem;
+    gap:2rem; 
+}
+
+.opciones>a{
+    align-self: center; /*este no funciona*/
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 6%;
+    gap:2px;
+    align-items: center;
+}
+
+.añadir{
+    background-image: linear-gradient(#E4A5FF,#116A7B);
+    display: flex;
+    border: 1px solid white;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    height: 23rem;
+    width: 30%;
+}
+
+input{
+    font-size: 1rem;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 14rem;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    text-align: center;
+}
+
+button{
+    margin-top: 2rem;
+    font-size: 1rem;
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    background-color: transparent;
+    color: black;
+    font-weight: bolder;
+}
+
+.contactos{
+    background-image: linear-gradient(#E4A5FF,#116A7B);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    border: 1px solid white;
+    border-radius: 2rem;;
+    text-align: center;
+    width: 50%;
+    height: 23rem;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.contactos>span{
+    border: 1px solid white;
+    border-radius: 2rem;;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 3rem;
+    display:flex; /*habia que declarar aca el displey flex*/
+    flex-direction: row;
+    height: 50px;
+}
+
+.contactos>span>p{
+    margin:auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    background-color: gray;
+    height: 3rem;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: flex-end;
+}
+
+@media(max-width:900px){
+
+    .añadir{
+        width: 35%;
+        margin-right: 1rem;
+    }
+
+    .contactos{
+        width: 65%;
+    }
+
+    .contactos>span{
+        height: 30%;
+    }
+}
+
+@media(max-width:700px){
+
+  
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .añadir{
+        width: 70%;
+    }
+
+    input{
+        width:16rem ;
+    }
+
+    .contactos{
+        width: 70%;
+    }
+
+    .contactos>span{
+        display: flex;
+        flex-direction: column;
+        height: 5rem;
+    }
+}
+
+@media(max-width:360px){
+    .añadir{
+        width: 80%;
+    }
+
+}
+

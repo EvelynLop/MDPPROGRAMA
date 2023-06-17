@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    justify-content: center;
+}
+
+header{
+    justify-content: center;
+    border: 1px solid red;
+    width: 80%;
+    height: 5rem;
+    margin:auto;
+    margin-top: 1rem;
+}
+
+header>h1{
+    display: flex;
+    justify-content: center;
+}
+
+header>h3{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+.añadir{
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    height: 20rem;
+    width: 23rem;
+}
+
+input{
+    font-size: 1rem;
+}
+
+button{
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    border: 1px solid red;
+    text-align: center;
+    width: 45rem;
+    height: 20rem;
+    padding-bottom: 2rem;
+}
+
+.contactos>span{
+    border: 1px solid yellow;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 3rem;
+    display:flex; /*habia que declarar aca el displey flex*/
+}
+
+.contactos>span>p{
+    margin:auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+

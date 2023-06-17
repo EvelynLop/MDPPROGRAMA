@@ -1,0 +1,44 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*body{
+    display:flex;
+    justify-content: center;
+}*/
+
+.contenedor{
+    display: grid;
+    padding: 2rem;
+    padding-bottom: 5rem;
+    padding-right: 3rem;
+    background-color:lightpink;
+    margin-top: 3rem;
+    width:70%;
+    height:85vh; /*No entiendo porque el vh lo toma y el % no.*/
+    grid-template-columns:25% 45% 25%;
+    grid-template-rows:25% 45% 25%;
+   /* justify-content: center;
+    align-items:center;*/
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.cuadros{
+    border: 2px solid grey;
+    justify-content: center;
+    display:grid;
+    align-items: center;
+    /*place-items:center; tamb se puede usar este */
+    font-size: 2rem;
+}
+
+.cuadros:hover{
+    cursor: crosshair;
+    background-color: blueviolet;
+    font-size:5rem;
+    transition:.7s;
+   
+}
