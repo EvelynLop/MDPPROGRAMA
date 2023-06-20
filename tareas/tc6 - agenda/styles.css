@@ -6,11 +6,13 @@
 
 body{
     justify-content: center;
+    background-image:url(./assets/fondo.jpg);
 }
 
 header{
-    justify-content: center;
-    border: 1px solid red;
+    background-image: linear-gradient(#E4A5FF,#116A7B);
+    border: 1px solid white;
+    border-radius: 3rem;
     width: 80%;
     height: 5rem;
     margin:auto;
@@ -34,6 +36,7 @@ main{
 }
 
 .añadir{
+    background-image: linear-gradient(#E4A5FF,#116A7B);
     display: flex;
     border: 1px solid red;
     justify-content: center;
@@ -54,6 +57,7 @@ button{
 }
 
 .contactos{
+    background-image: linear-gradient(#E4A5FF,#116A7B);
     display: flex;
     flex-direction: column;
     justify-content: center;
