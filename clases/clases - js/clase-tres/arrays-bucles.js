@@ -62,7 +62,7 @@ console.log(frutas, eliminado)*/
 
 // console.log(frutas, eliminado)
 
-const movies=[];
+/*const movies=[];
 
 for(let i=0; movies.length < 4; i++){
     const newMovie = prompt('recomendame una pelicula')
@@ -82,6 +82,40 @@ do{
     }
 }while (movies.length !== 3)
 
-const libros=[];
+const libros=[];*/
+
+class Persona{
+    constructor(){
+        this.nombre = height;
+        this.profesion = width;
+    }
+    sayHi(){
+        console.log(this.nombre)
+    }
+}
+
+const personaConstruida = new Persona('raul','albanil')
+
+console.log(personaConstruida.nombre)
+
+const personaUno={
+    nombre : 'raul',
+    edad : '35',
+    celular:,  
+}
+
+const personaDos={
+    nombre : 'Maria',
+    edad : '25',
+    celular:'',
+   
+}
+
+const personaTres={
+    nombre : 'Lucas',
+    edad : '40',
+    celular:'',
+   
+}
 
 
